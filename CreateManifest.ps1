@@ -1,0 +1,2 @@
+﻿mkdir "$pshome\Modules\PSUnit"
+New-ModuleManifest -PowerShellVersion 4.0 -Description "Unit Testing Framework for PowerShell" -Author "Anthony Shaw" -CompanyName "Dimension Data" -ModuleVersion 1.0.0 -FileList .\PSUnit.Assert.ps1, .\PSUnit.EmptyInclude.ps1, .\PSUnit.ps1, .\PSUnit.Report.ps1, .\PSUnit.Run.ps1, .\PSUnit.Support.ps1, .\PSUnitLogo400.png -Path "$pshome\Modules\PSUnit\PSUnit.psd1"
